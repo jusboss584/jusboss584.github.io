@@ -11,3 +11,18 @@ header {
     text-align: center;
     padding: 20px;
 }
+ul {
+    list-style: none;
+}
+form {
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    background-color: #f9f9f9;
+}
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+}
