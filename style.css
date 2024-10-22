@@ -1,1 +1,107 @@
+/* styles.css */
+
+/* Accessibility and Responsiveness */
+body.body-class {
+    background-color: #f5f5f5; /* Subtle background color */
+    font-family: Arial, sans-serif;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+.header-class {
+    background-color: #2c3e50; /* Contrasting background */
+    color: #ffffff; /* Font color for better visibility */
+    padding: 20px;
+    text-align: center;
+}
+
+.nav-class {
+    background-color: #e74c3c; /* Different background color for nav */
+    padding: 10px;
+}
+
+.nav-class a {
+    color: #ffffff;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: normal;
+}
+
+.nav-class a:hover, .nav-class a:active {
+    font-weight: bold; /* Active page link bold */
+}
+
+.title-class {
+    color: #f39c12; /* Distinct color for the title */
+}
+
+.section-title-class {
+    color: #3498db; /* Distinct color for section titles */
+}
+
+.text-class {
+    color: #2c3e50; /* Contrast font color with background */
+}
+
+.image-class {
+    border: 5px solid #f39c12; /* Border complementing the design */
+    display: block;
+    margin: 20px auto;
+    max-width: 100%;
+}
+
+.form-class {
+    background-color: #ecf0f1; /* Form background color */
+    padding: 20px;
+    border: 1px solid #ddd;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.input-class {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+.button-class {
+    background-color: #2ecc71;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+.button-class:hover {
+    background-color: #27ae60;
+}
+
+.footer-class {
+    background-color: #34495e; /* Distinct footer background */
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Responsive Design */
+@media screen and (max-width: 768px) {
+    .nav-class {
+        padding: 5px;
+    }
+    
+    .nav-class a {
+        margin: 0 10px;
+    }
+    
+    .form-class, .image-class {
+        width: 90%;
+    }
+}
 
